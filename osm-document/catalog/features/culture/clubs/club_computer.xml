@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="club_computer">
+        <title lang="ru" key="l10n.feature.club_computer.title">Компьютерный кружок</title>
+        <title lang="en" key="l10n.feature.club_computer.title">Club computer</title>
+        <tags>
+            <tag>
+                <key>club</key>
+                <val value="computer"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <trait>accessability</trait>
+        <icon>club_computer.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

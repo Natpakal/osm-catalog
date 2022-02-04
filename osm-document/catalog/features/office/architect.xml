@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="architect">
+        <title lang="ru" key="l10n.feature.architect.title">Архитектура</title>
+        <title lang="en" key="l10n.feature.architect.title">Architect</title>
+        <tags>
+            <tag>
+                <key>office</key>
+                <val value="architect"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <icon>architect.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

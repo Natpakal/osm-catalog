@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="blacksmith">
+        <title lang="ru" key="l10n.feature.blacksmith.title">Кузница</title>
+        <title lang="en" key="l10n.feature.blacksmith.title">Blacksmith</title>
+        <tags>
+            <tag>
+                <key>craft</key>
+                <val value="blacksmith"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <icon>blacksmith.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

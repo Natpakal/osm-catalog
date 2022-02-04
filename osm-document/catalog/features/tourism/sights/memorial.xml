@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="memorial">
+        <title lang="ru" key="l10n.feature.memorial.title">Мемориал, памятник</title>
+        <title lang="en" key="l10n.feature.memorial.title">Memorial</title>
+        <tags>
+            <tag>
+                <key>historic</key>
+                <val value="memorial"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <icon>memorial.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

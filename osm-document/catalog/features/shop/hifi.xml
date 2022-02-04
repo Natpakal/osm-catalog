@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="hifi">
+        <title lang="ru" key="l10n.feature.hifi.title">Hi-Fi аппаратура</title>
+        <title lang="en" key="l10n.feature.hifi.title">Hifi</title>
+        <tags>
+            <tag>
+                <key>shop</key>
+                <val value="hifi"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <icon>hifi.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

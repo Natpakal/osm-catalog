@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="information">
+        <title lang="ru" key="l10n.feature.information.title">Информационный стенд</title>
+        <title lang="en" key="l10n.feature.information.title">Information</title>
+        <tags>
+            <tag>
+                <key>tourism</key>
+                <val value="information"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <more-tags>
+            <tag tag-value-type="enum">
+                <title lang="ru" key="l10n.feature.information.more_tags.information.title">Тип стенда</title>
+                <title lang="en" key="l10n.feature.information.more_tags.information.title">Information</title>
+                <key>information</key>
+                <val value="office">
+                    <title lang="ru" key="l10n.feature.information.more_tags.information.office.title">Офис</title>
+                    <title lang="en" key="l10n.feature.information.more_tags.information.office.title">Office</title>
+                </val>
+                <val value="guidepost">
+                    <title lang="ru" key="l10n.feature.information.more_tags.information.guidepost.title">Указатель направления</title>
+                    <title lang="en" key="l10n.feature.information.more_tags.information.guidepost.title">Guidepost</title>
+                </val>
+                <val value="audioguide">
+                    <title lang="ru" key="l10n.feature.information.more_tags.information.audioguide.title">Аудиогид</title>
+                    <title lang="en" key="l10n.feature.information.more_tags.information.audioguide.title">Audioguide</title>
+                </val>
+                <val value="terminal">
+                    <title lang="ru" key="l10n.feature.information.more_tags.information.terminal.title">Терминал</title>
+                    <title lang="en" key="l10n.feature.information.more_tags.information.terminal.title">Terminal</title>
+                </val>
+                <val value="tactile_model">
+                    <title lang="ru" key="l10n.feature.information.more_tags.information.tactile_model.title">Тактильная модель</title>
+                    <title lang="en" key="l10n.feature.information.more_tags.information.tactile_model.title">Tactile model</title>
+                </val>
+                <val value="map">
+                    <title lang="ru" key="l10n.feature.information.more_tags.information.map.title">Карта</title>
+                    <title lang="en" key="l10n.feature.information.more_tags.information.map.title">Map</title>
+                </val>
+                <val value="tactile_map">
+                    <title lang="ru" key="l10n.feature.information.more_tags.information.tactile_map.title">Тактильная карта</title>
+                    <title lang="en" key="l10n.feature.information.more_tags.information.tactile_map.title">Tactile map</title>
+                </val>
+                <val value="board">
+                    <title lang="ru" key="l10n.feature.information.more_tags.information.board.title">Щит</title>
+                    <title lang="en" key="l10n.feature.information.more_tags.information.board.title">Board</title>
+                </val>
+            </tag>
+        </more-tags>
+        <icon>information.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

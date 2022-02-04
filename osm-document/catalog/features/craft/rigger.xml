@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="rigger">
+        <title lang="ru" key="l10n.feature.rigger.title">Оснастка для яхт, катеров</title>
+        <title lang="en" key="l10n.feature.rigger.title">Rigger</title>
+        <tags>
+            <tag>
+                <key>craft</key>
+                <val value="rigger"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <icon>rigger.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

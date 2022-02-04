@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="company">
+        <title lang="ru" key="l10n.feature.company.title">Фирма</title>
+        <title lang="en" key="l10n.feature.company.title">Company</title>
+        <tags>
+            <tag>
+                <key>office</key>
+                <val value="company"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <icon>company.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

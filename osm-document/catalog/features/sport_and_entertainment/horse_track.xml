@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="horse_track">
+        <title lang="ru" key="l10n.feature.horse_track.title">Ипподром</title>
+        <title lang="en" key="l10n.feature.horse_track.title">Horse track</title>
+        <tags>
+            <tag>
+                <title lang="ru" key="l10n.feature.horse_track.tags.sport.title">Конный спорт</title>
+                <title lang="en" key="l10n.feature.horse_track.tags.sport.title">Horse track</title>
+                <key>sport</key>
+                <val value="horse_racing"/>
+            </tag>
+            <tag>
+                <key>leisure</key>
+                <val value="track"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <trait>seasonal</trait>
+        <trait>fee</trait>
+        <trait>surface</trait>
+        <more-tags>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.horse_track.more_tags.covered.title">Крытый</title>
+                <title lang="en" key="l10n.feature.horse_track.more_tags.covered.title">Covered</title>
+                <key>covered</key>
+                <val value="true">
+                    <title lang="ru" key="l10n.feature.horse_track.more_tags.covered.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.horse_track.more_tags.covered.true.title">Yes</title>
+                </val>
+                <val value="false">
+                    <title lang="ru" key="l10n.feature.horse_track.more_tags.covered.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.horse_track.more_tags.covered.false.title">No</title>
+                </val>
+            </tag>
+        </more-tags>
+        <icon>horse_track.png</icon>
+        <applyed-to>node way area</applyed-to>
+    </feature>
+</doc-part>

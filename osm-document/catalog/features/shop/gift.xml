@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="gift">
+        <title lang="ru" key="l10n.feature.gift.title">Подарки, сувениры</title>
+        <title lang="en" key="l10n.feature.gift.title">Gift</title>
+        <tags>
+            <tag>
+                <key>shop</key>
+                <val value="gift"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <icon>gift.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="airport">
+        <title lang="ru" key="l10n.feature.airport.title">Аэропорт / Aэродром</title>
+        <title lang="en" key="l10n.feature.airport.title">Airport</title>
+        <tags>
+            <tag>
+                <key>aeroway</key>
+                <val value="aerodrome"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <more-tags>
+            <tag>
+                <title lang="ru" key="l10n.feature.airport.more_tags.iata.title">Код IATA</title>
+                <title lang="en" key="l10n.feature.airport.more_tags.iata.title">Iata</title>
+                <key>iata</key>
+            </tag>
+            <tag>
+                <title lang="ru" key="l10n.feature.airport.more_tags.icao.title">Код ICAO</title>
+                <title lang="en" key="l10n.feature.airport.more_tags.icao.title">Icao</title>
+                <key>icao</key>
+            </tag>
+            <tag tag-value-type="measure">
+                <title lang="ru" key="l10n.feature.airport.more_tags.ele.title">Высота над уровнем моря (м)</title>
+                <title lang="en" key="l10n.feature.airport.more_tags.ele.title">Ele</title>
+                <key>ele</key>
+            </tag>
+        </more-tags>
+        <icon>airport.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

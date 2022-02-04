@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="artwork">
+        <title lang="ru" key="l10n.feature.artwork.title">Арт-объект</title>
+        <title lang="en" key="l10n.feature.artwork.title">Artwork</title>
+        <tags>
+            <tag>
+                <key>tourism</key>
+                <val value="artwork"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <more-tags>
+            <tag>
+                <title lang="ru" key="l10n.feature.artwork.more_tags.artist_name.title">Имя художника</title>
+                <title lang="en" key="l10n.feature.artwork.more_tags.artist_name.title">Artist name</title>
+                <key>artist_name</key>
+            </tag>
+            <tag tag-value-type="date">
+                <title lang="ru" key="l10n.feature.artwork.more_tags.start_date.title">Дата установки</title>
+                <title lang="en" key="l10n.feature.artwork.more_tags.start_date.title">Start date</title>
+                <key>start_date</key>
+            </tag>
+            <tag tag-value-type="enum">
+                <title lang="ru" key="l10n.feature.artwork.more_tags.artwork_type.title">Тип произведения</title>
+                <title lang="en" key="l10n.feature.artwork.more_tags.artwork_type.title">Artwork type</title>
+                <key>artwork_type</key>
+                <val value="sculpture">
+                    <title lang="ru" key="l10n.feature.artwork.more_tags.artwork_type.sculpture.title">скульптура</title>
+                    <title lang="en" key="l10n.feature.artwork.more_tags.artwork_type.sculpture.title">Sculpture</title>
+                </val>
+                <val value="statue">
+                    <title lang="ru" key="l10n.feature.artwork.more_tags.artwork_type.statue.title">статуя</title>
+                    <title lang="en" key="l10n.feature.artwork.more_tags.artwork_type.statue.title">Statue</title>
+                </val>
+                <val value="mural">
+                    <title lang="ru" key="l10n.feature.artwork.more_tags.artwork_type.mural.title">фреска</title>
+                    <title lang="en" key="l10n.feature.artwork.more_tags.artwork_type.mural.title">Mural</title>
+                </val>
+                <val value="architecture">
+                    <title lang="ru" key="l10n.feature.artwork.more_tags.artwork_type.architecture.title">архитектурный объект</title>
+                    <title lang="en" key="l10n.feature.artwork.more_tags.artwork_type.architecture.title">Architecture</title>
+                </val>
+                <val value="mosaic">
+                    <title lang="ru" key="l10n.feature.artwork.more_tags.artwork_type.mosaic.title">мозаика</title>
+                    <title lang="en" key="l10n.feature.artwork.more_tags.artwork_type.mosaic.title">Mosaic</title>
+                </val>
+                <val value="painting">
+                    <title lang="ru" key="l10n.feature.artwork.more_tags.artwork_type.painting.title">живопись</title>
+                    <title lang="en" key="l10n.feature.artwork.more_tags.artwork_type.painting.title">Painting</title>
+                </val>
+            </tag>
+        </more-tags>
+        <icon>artwork.png</icon>
+        <applyed-to>node way area</applyed-to>
+    </feature>
+</doc-part>

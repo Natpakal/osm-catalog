@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="nightclub">
+        <title lang="ru" key="l10n.feature.nightclub.title">Ночной клуб</title>
+        <title lang="en" key="l10n.feature.nightclub.title">Nightclub</title>
+        <tags>
+            <tag>
+                <key>amenity</key>
+                <val value="nightclub"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <icon>nightclub.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

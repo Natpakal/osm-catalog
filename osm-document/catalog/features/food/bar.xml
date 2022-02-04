@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="bar">
+        <title lang="ru" key="l10n.feature.bar.title">Бар</title>
+        <title lang="en" key="l10n.feature.bar.title">Bar</title>
+        <tags>
+            <tag>
+                <key>amenity</key>
+                <val value="bar"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <trait>seasonal</trait>
+        <trait>cuisine</trait>
+        <trait>internet-access</trait>
+        <trait>smoking</trait>
+        <trait>accessability</trait>
+        <trait>drive_in</trait>
+        <more-tags>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.bar.more_tags.karaoke.title">Караоке</title>
+                <title lang="en" key="l10n.feature.bar.more_tags.karaoke.title">Karaoke</title>
+                <key>karaoke</key>
+                <val value="true">
+                    <title lang="ru" key="l10n.more_tags.true">Да</title>
+                    <title lang="en" key="l10n.more_tags.true">Yes</title>
+                </val>
+                <val value="false">
+                    <title lang="ru" key="l10n.more_tags.false">Нет</title>
+                    <title lang="en" key="l10n.more_tags.false">No</title>
+                </val>
+            </tag>
+        </more-tags>
+        <icon>bar.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

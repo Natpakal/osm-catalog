@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="raceway">
+        <title lang="ru" key="l10n.feature.raceway.title">Гоночная/раллийная трасса</title>
+        <title lang="en" key="l10n.feature.raceway.title">Raceway</title>
+        <tags>
+            <tag>
+                <key>highway</key>
+                <val value="raceway"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <trait>seasonal</trait>
+        <trait>fee</trait>
+        <trait>surface</trait>
+        <trait>sports</trait>
+        <more-tags>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.raceway.more_tags.covered.title">Крытый</title>
+                <title lang="en" key="l10n.feature.raceway.more_tags.covered.title">Covered</title>
+                <key>covered</key>
+                <val value="true">
+                    <title lang="ru" key="l10n.feature.raceway.more_tags.covered.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.raceway.more_tags.covered.true.title">Yes</title>
+                </val>
+                <val value="false">
+                    <title lang="ru" key="l10n.feature.raceway.more_tags.covered.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.raceway.more_tags.covered.false.title">No</title>
+                </val>
+            </tag>
+        </more-tags>
+        <icon>raceway.png</icon>
+        <applyed-to>way</applyed-to>
+    </feature>
+</doc-part>

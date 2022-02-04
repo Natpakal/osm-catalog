@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="fountain">
+        <title lang="ru" key="l10n.feature.fountain.title">Фонтан</title>
+        <title lang="en" key="l10n.feature.fountain.title">Fountain</title>
+        <tags>
+            <tag>
+                <key>amenity</key>
+                <val value="fountain"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <more-tags>
+            <tag tag-value-type="enum">
+                <title lang="ru" key="l10n.feature.fountain.more_tags.drinkable.title">Можно пить</title>
+                <title lang="en" key="l10n.feature.fountain.more_tags.drinkable.title">Drinkable</title>
+                <key>drinkable</key>
+                <val value="yes">
+                    <title lang="ru" key="l10n.more_tags.true">Да</title>
+                    <title lang="en" key="l10n.more_tags.true">Yes</title>
+                </val>
+                <val value="mineral">
+                    <title lang="ru" key="l10n.feature.fountain.more_tags.drinkable.mineral.title">Да, минеральная вода</title>
+                    <title lang="en" key="l10n.feature.fountain.more_tags.drinkable.mineral.title">Mineral</title>
+                </val>
+                <val value="no">
+                    <title lang="ru" key="l10n.more_tags.false">Нет</title>
+                    <title lang="en" key="l10n.more_tags.false">No</title>
+                </val>
+            </tag>
+        </more-tags>
+        <icon>fountain.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

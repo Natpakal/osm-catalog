@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="ambulance_station">
+        <title>l10n.feature.ambulance_station.title</title>
+        <tags>
+            <tag>
+                <title>l10n.feature.ambulance_station.tags.emergency.title</title>
+                <key>emergency</key>
+                <val value="ambulance_station"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <trait>accessability</trait>
+        <icon>ambulance_station.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

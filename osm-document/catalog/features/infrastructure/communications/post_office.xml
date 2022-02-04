@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="post_office">
+        <title lang="ru" key="l10n.feature.post_office.title">Почта</title>
+        <title lang="en" key="l10n.feature.post_office.title">Post office</title>
+        <tags>
+            <tag>
+                <key>amenity</key>
+                <val value="post_office"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <trait>internet-access</trait>
+        <more-tags>
+            <tag tag-value-type="number">
+                <title lang="ru" key="l10n.feature.post_office.more_tags.ref.title">Номер отделения</title>
+                <title lang="en" key="l10n.feature.post_office.more_tags.ref.title">Ref</title>
+                <key>ref</key>
+            </tag>
+        </more-tags>
+        <icon>post_office.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

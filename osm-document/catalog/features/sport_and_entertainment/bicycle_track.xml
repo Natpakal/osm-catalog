@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="bicycle_track">
+        <title lang="ru" key="l10n.feature.bicycle_track.title">Велотрек</title>
+        <title lang="en" key="l10n.feature.bicycle_track.title">Bicycle track</title>
+        <tags>
+            <tag>
+                <title lang="ru" key="l10n.feature.bicycle_track.tags.sport.title">Велотрек</title>
+                <title lang="en" key="l10n.feature.bicycle_track.tags.sport.title">Track cycling</title>
+                <key>sport</key>
+                <val value="cycling"/>
+            </tag>
+            <tag>
+                <key>leisure</key>
+                <val value="track"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <trait>fee</trait>
+        <trait>seasonal</trait>
+        <trait>surface</trait>
+        <more-tags>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.bicycle_track.more_tags.covered.title">Крытый</title>
+                <title lang="en" key="l10n.feature.bicycle_track.more_tags.covered.title">Covered</title>
+                <key>covered</key>
+                <val value="true">
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.covered.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.covered.true.title">Yes</title>
+                </val>
+                <val value="false">
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.covered.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.covered.false.title">No</title>
+                </val>
+            </tag>
+        </more-tags>
+        <icon>bicycle_track.png</icon>
+        <applyed-to>node way area</applyed-to>
+    </feature>
+</doc-part>

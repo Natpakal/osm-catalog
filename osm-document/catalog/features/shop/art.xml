@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="art">
+        <title lang="ru" key="l10n.feature.art.title">Предметы искусства</title>
+        <title lang="en" key="l10n.feature.art.title">Art</title>
+        <tags>
+            <tag>
+                <key>shop</key>
+                <val value="art"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <icon>art.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

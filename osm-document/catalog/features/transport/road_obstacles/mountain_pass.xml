@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="mountain_pass">
+        <title lang="ru" key="l10n.feature.mountain_pass.title">Перевал</title>
+        <title lang="en" key="l10n.feature.mountain_pass.title">Mountain pass</title>
+        <tags>
+            <tag>
+                <key>mountain_pass</key>
+                <val value="yes"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <more-tags>
+            <tag tag-value-type="measure">
+                <title lang="ru" key="l10n.feature.mountain_pass.more_tags.ele.title">Высота над уровнем моря (м)</title>
+                <title lang="en" key="l10n.feature.mountain_pass.more_tags.ele.title">Ele</title>
+                <key>ele</key>
+            </tag>
+        </more-tags>
+        <icon>mountain_pass.png</icon>
+        <applyed-to>node way</applyed-to>
+    </feature>
+</doc-part>

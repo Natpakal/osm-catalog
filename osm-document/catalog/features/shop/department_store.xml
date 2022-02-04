@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="department_store">
+        <title lang="ru" key="l10n.feature.department_store.title">Универмаг</title>
+        <title lang="en" key="l10n.feature.department_store.title">Department store</title>
+        <tags>
+            <tag>
+                <key>shop</key>
+                <val value="department_store"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <icon>department_store.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

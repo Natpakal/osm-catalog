@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="fire_hydrant">
+        <title lang="ru" key="l10n.feature.fire_hydrant.title">Пожарный гидрант</title>
+        <title lang="en" key="l10n.feature.fire_hydrant.title">Fire hydrant</title>
+        <tags>
+            <tag>
+                <title lang="ru" key="l10n.feature.fire_hydrant.tags.emergency.title">Экстренный</title>
+                <title lang="en" key="l10n.feature.fire_hydrant.tags.emergency.title">Emergency</title>
+                <key>emergency</key>
+                <val value="fire_hydrant"/>
+            </tag>
+        </tags>
+        <more-tags>
+            <tag tag-value-type="enum">
+                <title lang="ru" key="l10n.feature.fire_hydrant.more_tags.fire_hydrant:type.title">Тип гидранта</title>
+                <title lang="en" key="l10n.feature.fire_hydrant.more_tags.fire_hydrant:type.title">Fire hydrant type</title>
+                <key>fire_hydrant:type</key>
+                <val value="pillar">
+                    <title lang="ru" key="l10n.feature.fire_hydrant.more_tags.fire_hydrant:type.pillar.title">Столб</title>
+                    <title lang="en" key="l10n.feature.fire_hydrant.more_tags.fire_hydrant:type.pillar.title">Pillar</title>
+                </val>
+                <val value="underground">
+                    <title lang="ru" key="l10n.feature.fire_hydrant.more_tags.fire_hydrant:type.underground.title">Подземный</title>
+                    <title lang="en" key="l10n.feature.fire_hydrant.more_tags.fire_hydrant:type.underground.title">Underground</title>
+                </val>
+                <val value="pond">
+                    <title lang="ru" key="l10n.feature.fire_hydrant.more_tags.fire_hydrant:type.pond.title">Пруд</title>
+                    <title lang="en" key="l10n.feature.fire_hydrant.more_tags.fire_hydrant:type.pond.title">Pond</title>
+                </val>
+                <val value="wall">
+                    <title lang="ru" key="l10n.feature.fire_hydrant.more_tags.fire_hydrant:type.wall.title">Настенный</title>
+                    <title lang="en" key="l10n.feature.fire_hydrant.more_tags.fire_hydrant:type.wall.title">Wall</title>
+                </val>
+            </tag>
+            <tag>
+                <title lang="ru" key="l10n.feature.fire_hydrant.more_tags.ref"></title>
+                <title lang="en" key="l10n.feature.fire_hydrant.more_tags.ref">Ref</title>
+                <key>ref</key>
+            </tag>
+            <tag tag-value-type="number">
+                <title lang="ru" key="l10n.feature.fire_hydrant.more_tags.fire_hydrant:count.title">Число гидрантов</title>
+                <title lang="en" key="l10n.feature.fire_hydrant.more_tags.fire_hydrant:count.title">Fire hydrant count</title>
+                <key>fire_hydrant:count</key>
+            </tag>
+            <tag tag-value-type="number">
+                <title lang="ru" key="l10n.feature.fire_hydrant.more_tags.fire_hydrant:diameter.title">Диаметр отверстия</title>
+                <title lang="en" key="l10n.feature.fire_hydrant.more_tags.fire_hydrant:diameter.title">Fire hydrant diameter</title>
+                <key>fire_hydrant:diameter</key>
+            </tag>
+            <tag tag-value-type="number">
+                <title lang="ru" key="l10n.feature.fire_hydrant.more_tags.fire_hydrant:pressure.title">Давление (атм.)</title>
+                <title lang="en" key="l10n.feature.fire_hydrant.more_tags.fire_hydrant:pressure.title">Fire hydrant pressure</title>
+                <key>fire_hydrant:pressure</key>
+            </tag>
+        </more-tags>
+        <icon>fire_hydrant.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

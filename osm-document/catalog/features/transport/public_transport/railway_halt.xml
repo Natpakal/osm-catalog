@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="railway_halt">
+        <title lang="ru" key="l10n.feature.railway_halt.title">Ж/д платформа</title>
+        <title lang="en" key="l10n.feature.railway_halt.title">Railway halt</title>
+        <tags>
+            <tag>
+                <key>railway</key>
+                <val value="halt"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <more-tags>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.railway_halt.more_tags.ticket_office.title">Наличие билетной кассы</title>
+                <title lang="en" key="l10n.feature.railway_halt.more_tags.ticket_office.title">Ticket office</title>
+                <key>ticket_office</key>
+                <val value="true">
+                    <title lang="ru" key="l10n.feature.railway_halt.more_tags.ticket_office.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.railway_halt.more_tags.ticket_office.true.title">Yes</title>
+                </val>
+                <val value="false">
+                    <title lang="ru" key="l10n.feature.railway_halt.more_tags.ticket_office.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.railway_halt.more_tags.ticket_office.false.title">No</title>
+                </val>
+            </tag>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.railway_halt.more_tags.disused.title">Не используется</title>
+                <title lang="en" key="l10n.feature.railway_halt.more_tags.disused.title">Disused</title>
+                <key>disused</key>
+                <val value="true">
+                    <title lang="ru" key="l10n.feature.railway_halt.more_tags.disused.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.railway_halt.more_tags.disused.true.title">Yes</title>
+                </val>
+                <val value="false">
+                    <title lang="ru" key="l10n.feature.railway_halt.more_tags.disused.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.railway_halt.more_tags.disused.false.title">No</title>
+                </val>
+            </tag>
+        </more-tags>
+        <icon>railway_halt.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

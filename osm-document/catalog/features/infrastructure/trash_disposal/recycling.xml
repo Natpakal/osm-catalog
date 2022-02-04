@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="recycling">
+        <title lang="ru" key="l10n.feature.recycling.title">Переработка отходов</title>
+        <title lang="en" key="l10n.feature.recycling.title">Recycling</title>
+        <tags>
+            <tag>
+                <key>amenity</key>
+                <val value="recycling"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <trait>garbage-types</trait>
+        <more-tags>
+            <tag tag-value-type="period">
+                <title lang="ru" key="l10n.feature.recycling.more_tags.collection_times.title">Время вывоза мусора</title>
+                <title lang="en" key="l10n.feature.recycling.more_tags.collection_times.title">Collection times</title>
+                <key>collection_times</key>
+            </tag>
+        </more-tags>
+        <icon>recycling.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

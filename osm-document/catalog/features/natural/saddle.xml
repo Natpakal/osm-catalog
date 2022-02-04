@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="saddle">
+        <title lang="ru" key="l10n.feature.saddle.title">Седловая точка (перевал)</title>
+        <title lang="en" key="l10n.feature.saddle.title">Saddle</title>
+        <tags>
+            <tag>
+                <key>natural</key>
+                <val value="saddle"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <more-tags>
+            <tag tag-value-type="number">
+                <title lang="ru" key="l10n.feature.saddle.more_tags.ele.title">Высота над уровнем моря (м)</title>
+                <title lang="en" key="l10n.feature.saddle.more_tags.ele.title">Ele</title>
+                <key>ele</key>
+            </tag>
+        </more-tags>
+        <icon>saddle.png</icon>
+        <applyed-to>node</applyed-to>
+    </feature>
+</doc-part>

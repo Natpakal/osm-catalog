@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="subway_entrance">
+        <title lang="ru" key="l10n.feature.subway_entrance.title">Вход в метро</title>
+        <title lang="en" key="l10n.feature.subway_entrance.title">Subway entrance</title>
+        <tags>
+            <tag>
+                <key>railway</key>
+                <val value="subway_entrance"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <trait>accessability</trait>
+        <more-tags>
+            <tag tag-value-type="date">
+                <title lang="ru" key="l10n.feature.subway_entrance.more_tags.start_date.title">Дата открытия</title>
+                <title lang="en" key="l10n.feature.subway_entrance.more_tags.start_date.title">Start date</title>
+                <key>start_date</key>
+            </tag>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.subway_entrance.more_tags.bicycle.title">Проход с велосипедом</title>
+                <title lang="en" key="l10n.feature.subway_entrance.more_tags.bicycle.title">Bicycle</title>
+                <key>bicycle</key>
+                <val value="true">
+                    <title lang="ru" key="l10n.feature.subway_entrance.more_tags.bicycle.yes.title">Да</title>
+                    <title lang="en" key="l10n.feature.subway_entrance.more_tags.bicycle.yes.title">Yes</title>
+                </val>
+                <val value="false">
+                    <title lang="ru" key="l10n.feature.subway_entrance.more_tags.bicycle.no.title">Нет</title>
+                    <title lang="en" key="l10n.feature.subway_entrance.more_tags.bicycle.no.title">No</title>
+                </val>
+            </tag>
+        </more-tags>
+        <icon>subway_entrance.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

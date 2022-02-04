@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="surveillance">
+        <title lang="ru" key="l10n.feature.surveillance.title">Наблюдение</title>
+        <title lang="en" key="l10n.feature.surveillance.title">Surveillance</title>
+        <tags>
+            <tag>
+                <key>man_made</key>
+                <val value="surveillance"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <more-tags>
+            <tag tag-value-type="enum">
+                <title lang="ru" key="l10n.feature.surveillance.more_tags.surveillance.title">Тип</title>
+                <title lang="en" key="l10n.feature.surveillance.more_tags.surveillance.title">Surveillance</title>
+                <key>surveillance</key>
+                <val value="indoor">
+                    <title lang="ru" key="l10n.feature.surveillance.more_tags.surveillance.indoor.title">внутреннее</title>
+                    <title lang="en" key="l10n.feature.surveillance.more_tags.surveillance.indoor.title">Indoor</title>
+                </val>
+                <val value="outdoor">
+                    <title lang="ru" key="l10n.feature.surveillance.more_tags.surveillance.outdoor.title">наружное</title>
+                    <title lang="en" key="l10n.feature.surveillance.more_tags.surveillance.outdoor.title">Outdoor</title>
+                </val>
+                <val value="public">
+                    <title lang="ru" key="l10n.feature.surveillance.more_tags.surveillance.public.title">публичное</title>
+                    <title lang="en" key="l10n.feature.surveillance.more_tags.surveillance.public.title">Public</title>
+                </val>
+            </tag>
+        </more-tags>
+        <icon>surveillance.png</icon>
+        <applyed-to>node</applyed-to>
+    </feature>
+</doc-part>

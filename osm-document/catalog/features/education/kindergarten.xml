@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="kindergarten">
+        <title lang="ru" key="l10n.feature.kindergarten.title">Детский сад</title>
+        <title lang="en" key="l10n.feature.kindergarten.title">Kindergarten</title>
+        <tags>
+            <tag>
+                <key>amenity</key>
+                <val value="kindergarten"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <icon>kindergarten.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

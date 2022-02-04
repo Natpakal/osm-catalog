@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="bank">
+        <title lang="ru" key="l10n.feature.bank.title">Банк</title>
+        <title lang="en" key="l10n.feature.bank.title">Bank</title>
+        <tags>
+            <tag>
+                <key>amenity</key>
+                <val value="bank"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <more-tags>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.bank.more_tags.atm.title">Наличие банкомата</title>
+                <title lang="en" key="l10n.feature.bank.more_tags.atm.title">Atm</title>
+                <key>atm</key>
+                <val value="true">
+                    <title lang="ru" key="l10n.feature.bank.more_tags.atm.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.bank.more_tags.atm.true.title">Yes</title>
+                </val>
+                <val value="false">
+                    <title lang="ru" key="l10n.feature.bank.more_tags.atm.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.bank.more_tags.atm.false.title">No</title>
+                </val>
+            </tag>
+        </more-tags>
+        <icon>bank.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

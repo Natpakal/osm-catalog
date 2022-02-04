@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <trait name="accessability" group-tags="false">
+        <title lang="ru" key="l10n.trait.tickets.title">Билеты</title>
+        <title lang="en" key="l10n.trait.tickets.title">Tickets</title>
+        <more-tags>
+            <tag tag-value-type="enum">
+                <key>ticket</key>
+                <val value="bus"/>
+                <val value="no">
+                    <title lang="ru" key="l10n.trait.accessability.more_tags.wheelchair.no.title">Нет</title>
+                    <title lang="en" key="l10n.trait.accessability.more_tags.wheelchair.no.title">No</title>
+                </val>
+                <val value="limited">
+                    <title lang="ru" key="l10n.trait.accessability.more_tags.wheelchair.limited.title">Ограниченно</title>
+                    <title lang="en" key="l10n.trait.accessability.more_tags.wheelchair.limited.title">Limited</title>
+                </val>
+                <val value="designated">
+                    <title lang="ru" key="l10n.trait.accessability.more_tags.wheelchair.designated.title">Предназначено для колясок</title>
+                    <title lang="en" key="l10n.trait.accessability.more_tags.wheelchair.designated.title">Designated</title>
+                </val>
+            </tag>
+        </more-tags>
+    </trait>
+</doc-part>

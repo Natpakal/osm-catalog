@@ -1,0 +1,1006 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <trait name="country" group-tags="false">
+        <title lang="ru" key="l10n.trait.country.title">Страна</title>
+        <title lang="en" key="l10n.trait.country.title">Country</title>
+        <more-tags>
+            <tag tag-value-type="enum">
+                <title lang="ru" key="l10n.feature.embassy.more_tags.country.title">Страна</title>
+                <title lang="en" key="l10n.feature.embassy.more_tags.country.title">Country</title>
+                <key>country</key>
+                <val value="VU">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.VU.title">Вануату</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.VU.title">Vanuatu</title>
+                </val>
+                <val value="VN">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.VN.title">Вьетнам</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.VN.title">Viet Nam</title>
+                </val>
+                <val value="EC">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.EC.title">Эквадор</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.EC.title">Ecuador</title>
+                </val>
+                <val value="VI">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.VI.title">Американские Виргинские острова</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.VI.title">Virgin Islands (U.S.)</title>
+                </val>
+                <val value="DZ">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.DZ.title">Алжир</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.DZ.title">Algeria</title>
+                </val>
+                <val value="VG">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.VG.title">Британские Виргинские острова</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.VG.title">British Virgin Islands</title>
+                </val>
+                <val value="VE">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.VE.title">Венесуэла</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.VE.title">Venezuela</title>
+                </val>
+                <val value="DM">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.DM.title">Доминика</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.DM.title">Dominica</title>
+                </val>
+                <val value="VC">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.VC.title">Сент-Винсент и Гренадины</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.VC.title">Saint Vincent &amp; the Grenadines</title>
+                </val>
+                <val value="DO">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.DO.title">Доминикана</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.DO.title">Dominican Republic</title>
+                </val>
+                <val value="VA">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.VA.title">Ватикан</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.VA.title">Vatican City State (Holy See)</title>
+                </val>
+                <val value="DE">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.DE.title">Германия</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.DE.title">Germany</title>
+                </val>
+                <val value="UZ">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.UZ.title">Узбекистан</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.UZ.title">Uzbekistan</title>
+                </val>
+                <val value="UY">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.UY.title">Уругвай</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.UY.title">Uruguay</title>
+                </val>
+                <val value="DK">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.DK.title">Дания</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.DK.title">Denmark</title>
+                </val>
+                <val value="DJ">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.DJ.title">Джибути</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.DJ.title">Djibouti</title>
+                </val>
+                <val value="US">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.US.title">США</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.US.title">United States</title>
+                </val>
+                <val value="UM">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.UM.title">Внешние малые острова США</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.UM.title">US Minor Outlying Islands</title>
+                </val>
+                <val value="UG">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.UG.title">Уганда</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.UG.title">Uganda</title>
+                </val>
+                <val value="UA">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.UA.title">Украина</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.UA.title">Ukraine</title>
+                </val>
+                <val value="ET">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.ET.title">Эфиопия</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.ET.title">Ethiopia</title>
+                </val>
+                <val value="ES">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.ES.title">Испания</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.ES.title">Spain</title>
+                </val>
+                <val value="ER">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.ER.title">Эритрея</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.ER.title">Eritrea</title>
+                </val>
+                <val value="EH">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.EH.title">Западная Сахара</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.EH.title">Western Sahara</title>
+                </val>
+                <val value="EG">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.EG.title">Египет</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.EG.title">Egypt</title>
+                </val>
+                <val value="TZ">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.TZ.title">Танзания</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.TZ.title">Tanzania</title>
+                </val>
+                <val value="EE">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.EE.title">Эстония</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.EE.title">Estonia</title>
+                </val>
+                <val value="TT">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.TT.title">Тринидад и Тобаго</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.TT.title">Trinidad and Tobago</title>
+                </val>
+                <val value="TW">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.TW.title">Тайвань</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.TW.title">Taiwan</title>
+                </val>
+                <val value="TV">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.TV.title">Тувалу</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.TV.title">Tuvalu</title>
+                </val>
+                <val value="GD">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.GD.title">Гренада</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.GD.title">Grenada</title>
+                </val>
+                <val value="GE">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.GE.title">Грузия</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.GE.title">Georgia</title>
+                </val>
+                <val value="GF">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.GF.title">Французская Гвиана</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.GF.title">French Guiana</title>
+                </val>
+                <val value="GA">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.GA.title">Габон</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.GA.title">Gabon</title>
+                </val>
+                <val value="GB">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.GB.title">Великобритания</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.GB.title">Great Britain (UK)</title>
+                </val>
+                <val value="FR">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.FR.title">Франция</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.FR.title">France</title>
+                </val>
+                <val value="FO">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.FO.title">Фарерские острова</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.FO.title">Faroe Islands</title>
+                </val>
+                <val value="FK">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.FK.title">Фолклендские острова</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.FK.title">Falkland Islands (Malvinas)</title>
+                </val>
+                <val value="FJ">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.FJ.title">Фиджи</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.FJ.title">Fiji</title>
+                </val>
+                <val value="FM">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.FM.title">Микронезия</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.FM.title">Micronesia</title>
+                </val>
+                <val value="FI">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.FI.title">Финляндия</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.FI.title">Finland</title>
+                </val>
+                <val value="WS">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.WS.title">Самоа</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.WS.title">Samoa</title>
+                </val>
+                <val value="GY">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.GY.title">Гайана</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.GY.title">Guyana</title>
+                </val>
+                <val value="GW">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.GW.title">Гвинея-Бисау</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.GW.title">Guinea-Bissau</title>
+                </val>
+                <val value="GU">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.GU.title">Гуам</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.GU.title">Guam</title>
+                </val>
+                <val value="GT">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.GT.title">Гватемала</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.GT.title">Guatemala</title>
+                </val>
+                <val value="GS">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.GS.title">Южная Георгия и Южные Сандвичевы острова</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.GS.title">S. Georgia and S. Sandwich Isls.</title>
+                </val>
+                <val value="GR">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.GR.title">Греция</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.GR.title">Greece</title>
+                </val>
+                <val value="GQ">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.GQ.title">Экваториальная Гвинея</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.GQ.title">Equatorial Guinea</title>
+                </val>
+                <val value="WF">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.WF.title">Уоллис и Футуна</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.WF.title">Wallis and Futuna Islands</title>
+                </val>
+                <val value="GP">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.GP.title">Гваделупа</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.GP.title">Guadeloupe</title>
+                </val>
+                <val value="GN">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.GN.title">Гвинея</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.GN.title">Guinea</title>
+                </val>
+                <val value="GM">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.GM.title">Гамбия</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.GM.title">Gambia</title>
+                </val>
+                <val value="GL">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.GL.title">Гренландия</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.GL.title">Greenland</title>
+                </val>
+                <val value="GI">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.GI.title">Гибралтар</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.GI.title">Gibraltar</title>
+                </val>
+                <val value="GH">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.GH.title">Гана</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.GH.title">Ghana</title>
+                </val>
+                <val value="GG">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.GG.title">Гернси</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.GG.title">Guernsey</title>
+                </val>
+                <val value="RE">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.RE.title">Реюньон</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.RE.title">Reunion</title>
+                </val>
+                <val value="RO">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.RO.title">Румыния</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.RO.title">Romania</title>
+                </val>
+                <val value="AT">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.AT.title">Австрия</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.AT.title">Austria</title>
+                </val>
+                <val value="AS">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.AS.title">Американское Самоа</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.AS.title">American Samoa</title>
+                </val>
+                <val value="AR">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.AR.title">Аргентина</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.AR.title">Argentina</title>
+                </val>
+                <val value="AQ">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.AQ.title">Антарктика</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.AQ.title">Antarctica</title>
+                </val>
+                <val value="AX">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.AX.title">Аландские острова</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.AX.title">Aland Islands</title>
+                </val>
+                <val value="AW">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.AW.title">Аруба</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.AW.title">Aruba</title>
+                </val>
+                <val value="QA">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.QA.title">Катар</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.QA.title">Qatar</title>
+                </val>
+                <val value="AU">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.AU.title">Австралия</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.AU.title">Australia</title>
+                </val>
+                <val value="AZ">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.AZ.title">Азербайджан</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.AZ.title">Azerbaijan</title>
+                </val>
+                <val value="BA">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.BA.title">Босния и Герцеговина</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.BA.title">Bosnia and Herzegovina</title>
+                </val>
+                <val value="PT">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.PT.title">Португалия</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.PT.title">Portugal</title>
+                </val>
+                <val value="AD">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.AD.title">Андорра</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.AD.title">Andorra</title>
+                </val>
+                <val value="PW">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.PW.title">Палау</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.PW.title">Palau</title>
+                </val>
+                <val value="AG">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.AG.title">Антигуа и Барбуда</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.AG.title">Antigua and Barbuda</title>
+                </val>
+                <val value="AE">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.AE.title">Объединённые Арабские Эмираты</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.AE.title">United Arab Emirates</title>
+                </val>
+                <val value="PR">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.PR.title">Пуэрто-Рико</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.PR.title">Puerto Rico</title>
+                </val>
+                <val value="AF">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.AF.title">Афганистан</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.AF.title">Afghanistan</title>
+                </val>
+                <val value="PS">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.PS.title">Палестина</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.PS.title">Palestinian Territory, Occupied</title>
+                </val>
+                <val value="AL">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.AL.title">Албания</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.AL.title">Albania</title>
+                </val>
+                <val value="AI">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.AI.title">Ангилья</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.AI.title">Anguilla</title>
+                </val>
+                <val value="AO">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.AO.title">Ангола</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.AO.title">Angola</title>
+                </val>
+                <val value="PY">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.PY.title">Парагвай</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.PY.title">Paraguay</title>
+                </val>
+                <val value="AM">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.AM.title">Армения</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.AM.title">Armenia</title>
+                </val>
+                <val value="TG">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.TG.title">Того</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.TG.title">Togo</title>
+                </val>
+                <val value="BW">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.BW.title">Ботсвана</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.BW.title">Botswana</title>
+                </val>
+                <val value="TF">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.TF.title">Французские Южные и Антарктические территории</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.TF.title">French Southern Territories</title>
+                </val>
+                <val value="BV">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.BV.title">Остров Буве</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.BV.title">Bouvet Island</title>
+                </val>
+                <val value="BY">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.BY.title">Белоруссия</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.BY.title">Belarus</title>
+                </val>
+                <val value="TD">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.TD.title">Чад</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.TD.title">Chad</title>
+                </val>
+                <val value="TK">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.TK.title">Токелау</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.TK.title">Tokelau</title>
+                </val>
+                <val value="BS">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.BS.title">Содружество Багамских островов</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.BS.title">Bahamas</title>
+                </val>
+                <val value="TJ">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.TJ.title">Таджикистан</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.TJ.title">Tajikistan</title>
+                </val>
+                <val value="BR">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.BR.title">Бразилия</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.BR.title">Brazil</title>
+                </val>
+                <val value="TH">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.TH.title">Тайланд</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.TH.title">Thailand</title>
+                </val>
+                <val value="BT">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.BT.title">Бутан</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.BT.title">Bhutan</title>
+                </val>
+                <val value="TO">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.TO.title">Тонга</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.TO.title">Tonga</title>
+                </val>
+                <val value="TN">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.TN.title">Тунис</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.TN.title">Tunisia</title>
+                </val>
+                <val value="TM">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.TM.title">Туркмения</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.TM.title">Turkmenistan</title>
+                </val>
+                <val value="TL">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.TL.title">Восточный Тимор</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.TL.title">TL</title>
+                </val>
+                <val value="CA">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.CA.title">Канада</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.CA.title">Canada</title>
+                </val>
+                <val value="TR">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.TR.title">Турция</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.TR.title">Turkey</title>
+                </val>
+                <val value="BZ">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.BZ.title">Белиз</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.BZ.title">Belize</title>
+                </val>
+                <val value="BF">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.BF.title">Буркина-Фасо</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.BF.title">Burkina Faso</title>
+                </val>
+                <val value="SV">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.SV.title">Сальвадор</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.SV.title">El Salvador</title>
+                </val>
+                <val value="BG">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.BG.title">Болгария</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.BG.title">Bulgaria</title>
+                </val>
+                <val value="SS">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.SS.title">Южный Судан</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.SS.title">South Sudan</title>
+                </val>
+                <val value="BH">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.BH.title">Бахрейн</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.BH.title">Bahrain</title>
+                </val>
+                <val value="ST">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.ST.title">Сан-Томе и Принсипи</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.ST.title">Sao Tome and Principe</title>
+                </val>
+                <val value="BI">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.BI.title">Бурунди</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.BI.title">Burundi</title>
+                </val>
+                <val value="SY">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.SY.title">Сирия</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.SY.title">Syria</title>
+                </val>
+                <val value="BB">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.BB.title">Барбадос</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.BB.title">Barbados</title>
+                </val>
+                <val value="SZ">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.SZ.title">Свазиленд</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.SZ.title">Swaziland</title>
+                </val>
+                <val value="BD">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.BD.title">Бангладеш</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.BD.title">Bangladesh</title>
+                </val>
+                <val value="SX">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.SX.title">Синт-Мартен</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.SX.title">SX</title>
+                </val>
+                <val value="BE">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.BE.title">Бельгия</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.BE.title">Belgium</title>
+                </val>
+                <val value="BN">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.BN.title">Бруней</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.BN.title">Brunei Darussalam</title>
+                </val>
+                <val value="BO">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.BO.title">Боливия</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.BO.title">Bolivia</title>
+                </val>
+                <val value="BQ">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.BQ.title">Синт-Эстатиус</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.BQ.title">BQ</title>
+                </val>
+                <val value="BJ">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.BJ.title">Бенин</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.BJ.title">Benin</title>
+                </val>
+                <val value="TC">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.TC.title">Тёркс и Кайкос</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.TC.title">Turks and Caicos Islands</title>
+                </val>
+                <val value="BL">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.BL.title">Сен-Бартелеми</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.BL.title">BL</title>
+                </val>
+                <val value="BM">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.BM.title">Бермудские острова</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.BM.title">Bermuda</title>
+                </val>
+                <val value="SD">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.SD.title">Судан</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.SD.title">Sudan</title>
+                </val>
+                <val value="CZ">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.CZ.title">Чехия</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.CZ.title">Czech Republic</title>
+                </val>
+                <val value="SC">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.SC.title">Сейшельские Острова</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.SC.title">Seychelles</title>
+                </val>
+                <val value="CY">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.CY.title">Республика Кипр</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.CY.title">Cyprus</title>
+                </val>
+                <val value="CX">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.CX.title">Остров Рождества</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.CX.title">Christmas Island</title>
+                </val>
+                <val value="SE">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.SE.title">Швеция</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.SE.title">Sweden</title>
+                </val>
+                <val value="CW">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.CW.title">Кюрасао</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.CW.title">CW</title>
+                </val>
+                <val value="SH">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.SH.title">Острова Святой Елены, Вознесения и Тристан-да-Кунья</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.SH.title">St. Helena</title>
+                </val>
+                <val value="CV">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.CV.title">Кабо-Верде</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.CV.title">Cape Verde</title>
+                </val>
+                <val value="SG">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.SG.title">Сингапур</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.SG.title">Singapore</title>
+                </val>
+                <val value="CU">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.CU.title">Куба</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.CU.title">Cuba</title>
+                </val>
+                <val value="SJ">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.SJ.title">Шпицберген и Ян-Майен</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.SJ.title">Svalbard &amp; Jan Mayen Islands</title>
+                </val>
+                <val value="SI">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.SI.title">Словения</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.SI.title">Slovenia</title>
+                </val>
+                <val value="SL">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.SL.title">Сьерра-Леоне</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.SL.title">Sierra Leone</title>
+                </val>
+                <val value="SK">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.SK.title">Словакия</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.SK.title">Slovak Republic</title>
+                </val>
+                <val value="SN">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.SN.title">Сенегал</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.SN.title">Senegal</title>
+                </val>
+                <val value="SM">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.SM.title">Сан-Марино</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.SM.title">San Marino</title>
+                </val>
+                <val value="SO">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.SO.title">Сомали</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.SO.title">Somalia</title>
+                </val>
+                <val value="SR">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.SR.title">Суринам</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.SR.title">Suriname</title>
+                </val>
+                <val value="CI">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.CI.title">Кот-д’Ивуар</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.CI.title">Cote D'Ivoire (Ivory Coast)</title>
+                </val>
+                <val value="RS">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.RS.title">Сербия</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.RS.title">Serbia</title>
+                </val>
+                <val value="CG">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.CG.title">Республика Конго</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.CG.title">Congo</title>
+                </val>
+                <val value="CH">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.CH.title">Швейцария</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.CH.title">Switzerland</title>
+                </val>
+                <val value="RU">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.RU.title">Россия</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.RU.title">Russian Federation</title>
+                </val>
+                <val value="CF">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.CF.title">Центральноафриканская Республика</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.CF.title">Central African Republic</title>
+                </val>
+                <val value="RW">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.RW.title">Руанда</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.RW.title">Rwanda</title>
+                </val>
+                <val value="CC">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.CC.title">Кокосовые острова</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.CC.title">Cocos (Keeling) Islands</title>
+                </val>
+                <val value="CD">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.CD.title">Демократическая Республика Конго</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.CD.title">Congo, Democratic Republic</title>
+                </val>
+                <val value="CR">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.CR.title">Коста Рика</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.CR.title">Costa Rica</title>
+                </val>
+                <val value="CO">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.CO.title">Колумбия</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.CO.title">Colombia</title>
+                </val>
+                <val value="CM">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.CM.title">Камерун</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.CM.title">Cameroon</title>
+                </val>
+                <val value="CN">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.CN.title">Китай</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.CN.title">China</title>
+                </val>
+                <val value="CK">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.CK.title">Острова Кука</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.CK.title">Cook Islands</title>
+                </val>
+                <val value="SA">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.SA.title">Саудовская Аравия</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.SA.title">Saudi Arabia</title>
+                </val>
+                <val value="SB">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.SB.title">Соломоновы острова</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.SB.title">Solomon Islands</title>
+                </val>
+                <val value="CL">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.CL.title">Чили</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.CL.title">Chile</title>
+                </val>
+                <val value="LV">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.LV.title">Латвия</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.LV.title">Latvia</title>
+                </val>
+                <val value="LU">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.LU.title">Люксембург</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.LU.title">Luxembourg</title>
+                </val>
+                <val value="LT">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.LT.title">Литва</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.LT.title">Lithuania</title>
+                </val>
+                <val value="LY">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.LY.title">Ливия</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.LY.title">Libya</title>
+                </val>
+                <val value="LS">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.LS.title">Лесото</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.LS.title">Lesotho</title>
+                </val>
+                <val value="LR">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.LR.title">Либерия</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.LR.title">Liberia</title>
+                </val>
+                <val value="MG">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.MG.title">Мадагаскар</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.MG.title">Madagascar</title>
+                </val>
+                <val value="MH">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.MH.title">Маршалловы Острова</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.MH.title">Marshall Islands</title>
+                </val>
+                <val value="ME">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.ME.title">Черногория</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.ME.title">Montenegro</title>
+                </val>
+                <val value="MF">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.MF.title">Сен-Мартен</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.MF.title">Saint Martin</title>
+                </val>
+                <val value="MK">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.MK.title">Македония</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.MK.title">F.Y.R.O.M. (Macedonia)</title>
+                </val>
+                <val value="ML">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.ML.title">Мали</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.ML.title">Mali</title>
+                </val>
+                <val value="MC">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.MC.title">Монако</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.MC.title">Monaco</title>
+                </val>
+                <val value="MD">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.MD.title">Молдавия</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.MD.title">Moldova</title>
+                </val>
+                <val value="MA">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.MA.title">Марокко</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.MA.title">Morocco</title>
+                </val>
+                <val value="MV">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.MV.title">Мальдивы</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.MV.title">Maldives</title>
+                </val>
+                <val value="MU">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.MU.title">Маврикий</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.MU.title">Mauritius</title>
+                </val>
+                <val value="MX">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.MX.title">Мексика</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.MX.title">Mexico</title>
+                </val>
+                <val value="MW">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.MW.title">Малави</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.MW.title">Malawi</title>
+                </val>
+                <val value="MZ">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.MZ.title">Мозамбик</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.MZ.title">Mozambique</title>
+                </val>
+                <val value="MY">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.MY.title">Малайзия</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.MY.title">Malaysia</title>
+                </val>
+                <val value="MN">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.MN.title">Монголия</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.MN.title">Mongolia</title>
+                </val>
+                <val value="MM">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.MM.title">Мьянма</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.MM.title">Myanmar</title>
+                </val>
+                <val value="MP">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.MP.title">Северные Марианские острова</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.MP.title">Northern Mariana Islands</title>
+                </val>
+                <val value="MO">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.MO.title">Макао</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.MO.title">Macau</title>
+                </val>
+                <val value="MR">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.MR.title">Мавритания</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.MR.title">Mauritania</title>
+                </val>
+                <val value="MQ">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.MQ.title">Мартиника</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.MQ.title">Martinique</title>
+                </val>
+                <val value="MT">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.MT.title">Мальта</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.MT.title">Malta</title>
+                </val>
+                <val value="MS">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.MS.title">Монтсеррат</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.MS.title">Montserrat</title>
+                </val>
+                <val value="NF">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.NF.title">Норфолк</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.NF.title">Norfolk Island</title>
+                </val>
+                <val value="NG">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.NG.title">Нигерия</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.NG.title">Nigeria</title>
+                </val>
+                <val value="NI">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.NI.title">Никарагуа</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.NI.title">Nicaragua</title>
+                </val>
+                <val value="NL">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.NL.title">Нидерланды</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.NL.title">Netherlands</title>
+                </val>
+                <val value="NA">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.NA.title">Намибия</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.NA.title">Namibia</title>
+                </val>
+                <val value="NC">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.NC.title">Новая Каледония</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.NC.title">New Caledonia</title>
+                </val>
+                <val value="NE">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.NE.title">Нигер</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.NE.title">Niger</title>
+                </val>
+                <val value="NZ">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.NZ.title">Новая Зеландия</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.NZ.title">New Zealand (Aotearoa)</title>
+                </val>
+                <val value="NU">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.NU.title">Ниуэ</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.NU.title">Niue</title>
+                </val>
+                <val value="NR">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.NR.title">Науру</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.NR.title">Nauru</title>
+                </val>
+                <val value="NP">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.NP.title">Непал</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.NP.title">Nepal</title>
+                </val>
+                <val value="NO">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.NO.title">Норвегия</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.NO.title">Norway</title>
+                </val>
+                <val value="OM">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.OM.title">Оман</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.OM.title">Oman</title>
+                </val>
+                <val value="PL">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.PL.title">Польша</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.PL.title">Poland</title>
+                </val>
+                <val value="PM">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.PM.title">Сен-Пьер и Микелон</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.PM.title">St. Pierre and Miquelon</title>
+                </val>
+                <val value="PN">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.PN.title">Острова Питкэрн</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.PN.title">Pitcairn</title>
+                </val>
+                <val value="PH">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.PH.title">Филиппины</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.PH.title">Philippines</title>
+                </val>
+                <val value="PK">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.PK.title">Пакистан</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.PK.title">Pakistan</title>
+                </val>
+                <val value="PE">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.PE.title">Перу</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.PE.title">Peru</title>
+                </val>
+                <val value="PF">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.PF.title">Французская Полинезия</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.PF.title">French Polynesia</title>
+                </val>
+                <val value="PG">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.PG.title">Папуа-Новая Гвинея</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.PG.title">Papua New Guinea</title>
+                </val>
+                <val value="PA">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.PA.title">Панама</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.PA.title">Panama</title>
+                </val>
+                <val value="HK">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.HK.title">Гонконг</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.HK.title">Hong Kong</title>
+                </val>
+                <val value="ZA">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.ZA.title">Южно-Африканская Республика</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.ZA.title">South Africa</title>
+                </val>
+                <val value="HN">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.HN.title">Гондурас</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.HN.title">Honduras</title>
+                </val>
+                <val value="HM">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.HM.title">Остров Херд и острова Макдональд</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.HM.title">Heard and McDonald Islands</title>
+                </val>
+                <val value="HR">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.HR.title">Хорватия</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.HR.title">Croatia (Hrvatska)</title>
+                </val>
+                <val value="HT">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.HT.title">Гаити</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.HT.title">Haiti</title>
+                </val>
+                <val value="HU">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.HU.title">Венгрия</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.HU.title">Hungary</title>
+                </val>
+                <val value="ZM">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.ZM.title">Замбия</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.ZM.title">Zambia</title>
+                </val>
+                <val value="ZW">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.ZW.title">Зимбабве</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.ZW.title">Zimbabwe</title>
+                </val>
+                <val value="ID">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.ID.title">Индонезия</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.ID.title">Indonesia</title>
+                </val>
+                <val value="IE">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.IE.title">Ирландия</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.IE.title">Ireland</title>
+                </val>
+                <val value="IL">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.IL.title">Израиль</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.IL.title">Israel</title>
+                </val>
+                <val value="IM">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.IM.title">Остров Мэн</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.IM.title">Isle of Man</title>
+                </val>
+                <val value="IN">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.IN.title">Индия</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.IN.title">India</title>
+                </val>
+                <val value="IO">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.IO.title">Британская территория в Индийском океане</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.IO.title">British Indian Ocean Territory</title>
+                </val>
+                <val value="IQ">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.IQ.title">Ирак</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.IQ.title">Iraq</title>
+                </val>
+                <val value="IR">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.IR.title">Иран</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.IR.title">Iran</title>
+                </val>
+                <val value="YE">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.YE.title">Йемен</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.YE.title">Yemen</title>
+                </val>
+                <val value="IS">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.IS.title">Исландия</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.IS.title">Iceland</title>
+                </val>
+                <val value="IT">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.IT.title">Италия</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.IT.title">Italy</title>
+                </val>
+                <val value="JE">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.JE.title">Джерси</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.JE.title">Jersey</title>
+                </val>
+                <val value="YT">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.YT.title">Майотта</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.YT.title">Mayotte</title>
+                </val>
+                <val value="JP">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.JP.title">Япония</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.JP.title">Japan</title>
+                </val>
+                <val value="JO">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.JO.title">Иордания</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.JO.title">Jordan</title>
+                </val>
+                <val value="KI">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.KI.title">Кирибати</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.KI.title">Kiribati</title>
+                </val>
+                <val value="KH">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.KH.title">Камбоджа</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.KH.title">Cambodia</title>
+                </val>
+                <val value="KG">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.KG.title">Киргизия</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.KG.title">Kyrgyzstan</title>
+                </val>
+                <val value="KE">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.KE.title">Кения</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.KE.title">Kenya</title>
+                </val>
+                <val value="KP">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.KP.title">Корейская Народно-Демократическая Республика</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.KP.title">Korea (North)</title>
+                </val>
+                <val value="KR">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.KR.title">Республика Корея</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.KR.title">Korea (South)</title>
+                </val>
+                <val value="KM">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.KM.title">Коморы</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.KM.title">Comoros</title>
+                </val>
+                <val value="KN">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.KN.title">Сент-Китс и Невис</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.KN.title">Saint Kitts and Nevis</title>
+                </val>
+                <val value="KW">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.KW.title">Кувейт</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.KW.title">Kuwait</title>
+                </val>
+                <val value="KY">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.KY.title">Каймановы острова</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.KY.title">Cayman Islands</title>
+                </val>
+                <val value="KZ">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.KZ.title">Казахстан</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.KZ.title">Kazakhstan</title>
+                </val>
+                <val value="LA">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.LA.title">Лаос</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.LA.title">Laos</title>
+                </val>
+                <val value="LC">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.LC.title">Сент-Люсия</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.LC.title">Saint Lucia</title>
+                </val>
+                <val value="LB">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.LB.title">Ливан</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.LB.title">Lebanon</title>
+                </val>
+                <val value="LI">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.LI.title">Лихтенштейн</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.LI.title">Liechtenstein</title>
+                </val>
+                <val value="LK">
+                    <title lang="ru" key="l10n.feature.embassy.more_tags.country.LK.title">Шри-Ланка</title>
+                    <title lang="en" key="l10n.feature.embassy.more_tags.country.LK.title">Sri Lanka</title>
+                </val>
+            </tag>
+        </more-tags>
+    </trait>
+</doc-part>

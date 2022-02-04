@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="copyshop">
+        <title lang="ru" key="l10n.feature.copyshop.title">Ксерокопия, полиграфия</title>
+        <title lang="en" key="l10n.feature.copyshop.title">Copyshop</title>
+        <tags>
+            <tag>
+                <key>shop</key>
+                <val value="copyshop"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <icon>copyshop.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

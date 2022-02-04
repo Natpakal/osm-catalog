@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="fuel">
+        <title lang="ru" key="l10n.feature.fuel.title">Заправка</title>
+        <title lang="en" key="l10n.feature.fuel.title">Fuel</title>
+        <tags>
+            <tag>
+                <key>amenity</key>
+                <val value="fuel"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <trait>fuel_types</trait>
+        <icon>fuel.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="car_wash">
+        <title lang="ru" key="l10n.feature.car_wash.title">Автомойка</title>
+        <title lang="en" key="l10n.feature.car_wash.title">Car wash</title>
+        <tags>
+            <tag>
+                <key>amenity</key>
+                <val value="car_wash"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <icon>car_wash.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

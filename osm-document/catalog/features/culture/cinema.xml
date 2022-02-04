@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="cinema">
+        <title lang="ru" key="l10n.feature.cinema.title">Кинотеатр</title>
+        <title lang="en" key="l10n.feature.cinema.title">Cinema</title>
+        <tags>
+            <tag>
+                <key>amenity</key>
+                <val value="cinema"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <trait>accessability</trait>
+        <trait>drive_in</trait>
+        <icon>cinema.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

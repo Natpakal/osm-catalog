@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <trait name="cuisine" group-tags="false">
+        <title lang="ru" key="l10n.trait.cuisine.title">Кухня</title>
+        <title lang="en" key="l10n.trait.cuisine.title">Cuisine</title>
+        <more-tags>
+            <tag tag-value-type="enum">
+                <title lang="ru" key="l10n.trait.cuisine.more_tags.cuisine.title">Кухня</title>
+                <title lang="en" key="l10n.trait.cuisine.more_tags.cuisine.title">Cuisine</title>
+                <key>cuisine</key>
+                <val value="burger">
+                    <title lang="ru" key="l10n.trait.cuisine.more_tags.cuisine.burger.title">Бургеры</title>
+                    <title lang="en" key="l10n.trait.cuisine.more_tags.cuisine.burger.title">Burger</title>
+                </val>
+                <val value="italian">
+                    <title lang="ru" key="l10n.trait.cuisine.more_tags.cuisine.italian.title">Итальянская</title>
+                    <title lang="en" key="l10n.trait.cuisine.more_tags.cuisine.italian.title">Italian</title>
+                </val>
+                <val value="fish">
+                    <title lang="ru" key="l10n.trait.cuisine.more_tags.cuisine.fish.title">Рыба</title>
+                    <title lang="en" key="l10n.trait.cuisine.more_tags.cuisine.fish.title">Fish</title>
+                </val>
+                <val value="vietnamese">
+                    <title lang="ru" key="l10n.trait.cuisine.more_tags.cuisine.vietnamese.title">Въетнамская</title>
+                    <title lang="en" key="l10n.trait.cuisine.more_tags.cuisine.vietnamese.title">Vietnamese</title>
+                </val>
+                <val value="thai">
+                    <title lang="ru" key="l10n.trait.cuisine.more_tags.cuisine.thai.title">Тайская</title>
+                    <title lang="en" key="l10n.trait.cuisine.more_tags.cuisine.thai.title">Thai</title>
+                </val>
+                <val value="french">
+                    <title lang="ru" key="l10n.trait.cuisine.more_tags.cuisine.french.title">Французская</title>
+                    <title lang="en" key="l10n.trait.cuisine.more_tags.cuisine.french.title">French</title>
+                </val>
+                <val value="chinese">
+                    <title lang="ru" key="l10n.trait.cuisine.more_tags.cuisine.chinese.title">Китайская</title>
+                    <title lang="en" key="l10n.trait.cuisine.more_tags.cuisine.chinese.title">Chinese</title>
+                </val>
+                <val value="asian">
+                    <title lang="ru" key="l10n.trait.cuisine.more_tags.cuisine.asian.title">Азиатская</title>
+                    <title lang="en" key="l10n.trait.cuisine.more_tags.cuisine.asian.title">Asian</title>
+                </val>
+                <val value="chicken">
+                    <title lang="ru" key="l10n.trait.cuisine.more_tags.cuisine.chicken.title">Курица</title>
+                    <title lang="en" key="l10n.trait.cuisine.more_tags.cuisine.chicken.title">Chicken</title>
+                </val>
+                <val value="sushi">
+                    <title lang="ru" key="l10n.trait.cuisine.more_tags.cuisine.sushi.title">Суши</title>
+                    <title lang="en" key="l10n.trait.cuisine.more_tags.cuisine.sushi.title">Sushi</title>
+                </val>
+                <val value="american">
+                    <title lang="ru" key="l10n.trait.cuisine.more_tags.cuisine.american.title">Американская</title>
+                    <title lang="en" key="l10n.trait.cuisine.more_tags.cuisine.american.title">American</title>
+                </val>
+                <val value="vegetarian">
+                    <title lang="ru" key="l10n.trait.cuisine.more_tags.cuisine.vegetarian.title">Вегетерианская</title>
+                    <title lang="en" key="l10n.trait.cuisine.more_tags.cuisine.vegetarian.title">Vegetarian</title>
+                </val>
+                <val value="kebab">
+                    <title lang="ru" key="l10n.trait.cuisine.more_tags.cuisine.kebab.title">Кебаб</title>
+                    <title lang="en" key="l10n.trait.cuisine.more_tags.cuisine.kebab.title">Kebab</title>
+                </val>
+                <val value="ice_cream">
+                    <title lang="ru" key="l10n.trait.cuisine.more_tags.cuisine.ice_cream.title">Мороженое</title>
+                    <title lang="en" key="l10n.trait.cuisine.more_tags.cuisine.ice_cream.title">Ice cream</title>
+                </val>
+                <val value="georgian">
+                    <title lang="ru" key="l10n.trait.cuisine.more_tags.cuisine.georgian.title">Грузинская</title>
+                    <title lang="en" key="l10n.trait.cuisine.more_tags.cuisine.georgian.title">Georgian</title>
+                </val>
+                <val value="spanish">
+                    <title lang="ru" key="l10n.trait.cuisine.more_tags.cuisine.spanish.title">Испанская</title>
+                    <title lang="en" key="l10n.trait.cuisine.more_tags.cuisine.spanish.title">Spanish</title>
+                </val>
+                <val value="greek">
+                    <title lang="ru" key="l10n.trait.cuisine.more_tags.cuisine.greek.title">Греческая</title>
+                    <title lang="en" key="l10n.trait.cuisine.more_tags.cuisine.greek.title">Greek</title>
+                </val>
+                <val value="fish_and_chips">
+                    <title lang="ru" key="l10n.trait.cuisine.more_tags.cuisine.fish_and_chips.title">Рыбные чипсы</title>
+                    <title lang="en" key="l10n.trait.cuisine.more_tags.cuisine.fish_and_chips.title">Fish and chips</title>
+                </val>
+                <val value="mexican">
+                    <title lang="ru" key="l10n.trait.cuisine.more_tags.cuisine.mexican.title">Мексиканская</title>
+                    <title lang="en" key="l10n.trait.cuisine.more_tags.cuisine.mexican.title">Mexican</title>
+                </val>
+                <val value="german">
+                    <title lang="ru" key="l10n.trait.cuisine.more_tags.cuisine.german.title">Немецкая</title>
+                    <title lang="en" key="l10n.trait.cuisine.more_tags.cuisine.german.title">German</title>
+                </val>
+                <val value="international">
+                    <title lang="ru" key="l10n.trait.cuisine.more_tags.cuisine.international.title">Интернациональная</title>
+                    <title lang="en" key="l10n.trait.cuisine.more_tags.cuisine.international.title">International</title>
+                </val>
+                <val value="indian">
+                    <title lang="ru" key="l10n.trait.cuisine.more_tags.cuisine.indian.title">Индийская</title>
+                    <title lang="en" key="l10n.trait.cuisine.more_tags.cuisine.indian.title">Indian</title>
+                </val>
+                <val value="japanese">
+                    <title lang="ru" key="l10n.trait.cuisine.more_tags.cuisine.japanese.title">Японская</title>
+                    <title lang="en" key="l10n.trait.cuisine.more_tags.cuisine.japanese.title">Japanese</title>
+                </val>
+                <val value="coffee_shop">
+                    <title lang="ru" key="l10n.trait.cuisine.more_tags.cuisine.coffee_shop.title">Кофе</title>
+                    <title lang="en" key="l10n.trait.cuisine.more_tags.cuisine.coffee_shop.title">Coffee shop</title>
+                </val>
+                <val value="turkish">
+                    <title lang="ru" key="l10n.trait.cuisine.more_tags.cuisine.turkish.title">Турецкая</title>
+                    <title lang="en" key="l10n.trait.cuisine.more_tags.cuisine.turkish.title">Turkish</title>
+                </val>
+                <val value="korean">
+                    <title lang="ru" key="l10n.trait.cuisine.more_tags.cuisine.korean.title">Корейская</title>
+                    <title lang="en" key="l10n.trait.cuisine.more_tags.cuisine.korean.title">Korean</title>
+                </val>
+                <val value="steak_house">
+                    <title lang="ru" key="l10n.trait.cuisine.more_tags.cuisine.steak_house.title">Стейки</title>
+                    <title lang="en" key="l10n.trait.cuisine.more_tags.cuisine.steak_house.title">Steak house</title>
+                </val>
+                <val value="sandwich">
+                    <title lang="ru" key="l10n.trait.cuisine.more_tags.cuisine.sandwich.title">Сэндвичи</title>
+                    <title lang="en" key="l10n.trait.cuisine.more_tags.cuisine.sandwich.title">Sandwich</title>
+                </val>
+                <val value="russian">
+                    <title lang="ru" key="l10n.trait.cuisine.more_tags.cuisine.russian.title">Русская</title>
+                    <title lang="en" key="l10n.trait.cuisine.more_tags.cuisine.russian.title">Russian</title>
+                </val>
+                <val value="seafood">
+                    <title lang="ru" key="l10n.trait.cuisine.more_tags.cuisine.seafood.title">Морепродукты</title>
+                    <title lang="en" key="l10n.trait.cuisine.more_tags.cuisine.seafood.title">Seafood</title>
+                </val>
+                <val value="regional">
+                    <title lang="ru" key="l10n.trait.cuisine.more_tags.cuisine.regional.title">Местная кухня</title>
+                    <title lang="en" key="l10n.trait.cuisine.more_tags.cuisine.regional.title">Regional</title>
+                </val>
+                <val value="pizza">
+                    <title lang="ru" key="l10n.trait.cuisine.more_tags.cuisine.pizza.title">Пицца</title>
+                    <title lang="en" key="l10n.trait.cuisine.more_tags.cuisine.pizza.title">Pizza</title>
+                </val>
+                <val value="barbecue">
+                    <title lang="ru" key="l10n.trait.cuisine.more_tags.cuisine.barbecue.title">Гриль</title>
+                    <title lang="en" key="l10n.trait.cuisine.more_tags.cuisine.barbecue.title">Barbecue</title>
+                </val>
+                <val value="bavarian">
+                    <title lang="ru" key="l10n.trait.cuisine.more_tags.cuisine.bavarian.title">Баварская</title>
+                    <title lang="en" key="l10n.trait.cuisine.more_tags.cuisine.bavarian.title">Bavarian</title>
+                </val>
+                <val value="ukrainian">
+                    <title lang="ru" key="l10n.trait.cuisine.more_tags.cuisine.ukrainian.title">Украинская</title>
+                    <title lang="en" key="l10n.trait.cuisine.more_tags.cuisine.ukrainian.title">Ukrainian</title>
+                </val>
+                <val value="portuguese">
+                    <title lang="ru" key="l10n.trait.cuisine.more_tags.cuisine.portuguese.title">Португальская</title>
+                    <title lang="en" key="l10n.trait.cuisine.more_tags.cuisine.portuguese.title">Portuguese</title>
+                </val>
+                <val value="czech">
+                    <title lang="ru" key="l10n.trait.cuisine.more_tags.cuisine.czech.title">Чешская</title>
+                    <title lang="en" key="l10n.trait.cuisine.more_tags.cuisine.czech.title">Czech</title>
+                </val>
+                <val value="balkan">
+                    <title lang="ru" key="l10n.trait.cuisine.more_tags.cuisine.balkan.title">Балканская</title>
+                    <title lang="en" key="l10n.trait.cuisine.more_tags.cuisine.balkan.title">Balkan</title>
+                </val>
+                <val value="african">
+                    <title lang="ru" key="l10n.trait.cuisine.more_tags.cuisine.african.title">Африканская</title>
+                    <title lang="en" key="l10n.trait.cuisine.more_tags.cuisine.african.title">African</title>
+                </val>
+            </tag>
+        </more-tags>
+    </trait>
+</doc-part>

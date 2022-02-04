@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="golf_course">
+        <title lang="ru" key="l10n.feature.golf_course.title">Поле для гольфа</title>
+        <title lang="en" key="l10n.feature.golf_course.title">Golf course</title>
+        <tags>
+            <tag>
+                <key>leisure</key>
+                <val value="golf_course"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <trait>fee</trait>
+        <icon>golf_course.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

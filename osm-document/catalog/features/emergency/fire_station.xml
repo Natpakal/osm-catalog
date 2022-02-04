@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="fire_station">
+        <title lang="ru" key="l10n.feature.fire_station.title">Пожарная часть</title>
+        <title lang="en" key="l10n.feature.fire_station.title">Fire station</title>
+        <tags>
+            <tag>
+                <key>amenity</key>
+                <val value="fire_station"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <icon>fire_station.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

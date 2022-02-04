@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="transformer">
+        <title lang="ru" key="l10n.feature.transformer.title">Трансформатор</title>
+        <title lang="en" key="l10n.feature.transformer.title">Transformer</title>
+        <tags>
+            <tag>
+                <key>power</key>
+                <val value="transformer"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <more-tags>
+            <tag tag-value-type="number">
+                <title lang="ru" key="l10n.feature.transformer.more_tags.phases.title">Число фаз</title>
+                <title lang="en" key="l10n.feature.transformer.more_tags.phases.title">Phases</title>
+                <key>phases</key>
+            </tag>
+            <tag tag-value-type="number">
+                <title lang="ru" key="l10n.feature.transformer.more_tags.voltage.title">Напряжения</title>
+                <title lang="en" key="l10n.feature.transformer.more_tags.voltage.title">Voltage</title>
+                <key>voltage</key>
+            </tag>
+            <tag tag-value-type="number">
+                <title lang="ru" key="l10n.feature.transformer.more_tags.frequency.title">Частота тока (Гц)</title>
+                <title lang="en" key="l10n.feature.transformer.more_tags.frequency.title">Frequency</title>
+                <key>frequency</key>
+            </tag>
+        </more-tags>
+        <icon>transformer.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

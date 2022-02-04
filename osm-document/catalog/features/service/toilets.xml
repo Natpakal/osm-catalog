@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="toilets">
+        <title lang="ru" key="l10n.feature.toilets.title">Туалет</title>
+        <title lang="en" key="l10n.feature.toilets.title">Toilets</title>
+        <tags>
+            <tag>
+                <key>amenity</key>
+                <val value="toilets"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <trait>fee</trait>
+        <icon>toilets.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

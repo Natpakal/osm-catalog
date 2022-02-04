@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="car_rental">
+        <title lang="ru" key="l10n.feature.car_rental.title">Прокат автомобилей</title>
+        <title lang="en" key="l10n.feature.car_rental.title">Car rental</title>
+        <tags>
+            <tag>
+                <key>amenity</key>
+                <val value="car_rental"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <icon>car_rental.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

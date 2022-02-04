@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="tinsmith">
+        <title lang="ru" key="l10n.feature.tinsmith.title">Жестянщик, лудильщик</title>
+        <title lang="en" key="l10n.feature.tinsmith.title">Tinsmith</title>
+        <tags>
+            <tag>
+                <key>craft</key>
+                <val value="tinsmith"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

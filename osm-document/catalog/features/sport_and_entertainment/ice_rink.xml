@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="ice_rink">
+        <title lang="ru" key="l10n.feature.ice_rink.title">Каток</title>
+        <title lang="en" key="l10n.feature.ice_rink.title">Ice rink</title>
+        <tags>
+            <tag>
+                <key>leisure</key>
+                <val value="ice_rink"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <trait>seasonal</trait>
+        <trait>fee</trait>
+        <trait>sport</trait>
+        <more-tags>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.ice_rink.more_tags.covered.title">Крытый</title>
+                <title lang="en" key="l10n.feature.ice_rink.more_tags.covered.title">Covered</title>
+                <key>covered</key>
+                <val value="true">
+                    <title lang="ru" key="l10n.feature.ice_rink.more_tags.covered.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.ice_rink.more_tags.covered.true.title">Yes</title>
+                </val>
+                <val value="false">
+                    <title lang="ru" key="l10n.feature.ice_rink.more_tags.covered.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.ice_rink.more_tags.covered.false.title">No</title>
+                </val>
+            </tag>
+        </more-tags>
+        <icon>ice_rink.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

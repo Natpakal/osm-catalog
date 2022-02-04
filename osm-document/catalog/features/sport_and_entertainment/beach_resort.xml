@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="beach_resort">
+        <title lang="ru" key="l10n.feature.beach_resort.title">Пляжный комплекс</title>
+        <title lang="en" key="l10n.feature.beach_resort.title">Beach resort</title>
+        <description lang="ru" key="l10n.feature.beach_resort.description"/>
+        <description lang="en" key="l10n.feature.beach_resort.description"/>
+        <tags>
+            <tag>
+                <key>leisure</key>
+                <val value="beach_resort"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <trait>fee</trait>
+        <more-tags>
+            <tag tag-value-type="enum">
+                <title lang="ru" key="l10n.feature.beach_resort.more_tags.nudism.title">Нудизм</title>
+                <title lang="en" key="l10n.feature.beach_resort.more_tags.nudism.title">Nudism</title>
+                <key>nudism</key>
+                <val value="yes">
+                    <title lang="ru" key="l10n.more_tags.true">Да</title>
+                    <title lang="en" key="l10n.more_tags.true">Yes</title>
+                </val>
+                <val value="no">
+                    <title lang="ru" key="l10n.more_tags.false">Нет</title>
+                    <title lang="en" key="l10n.more_tags.false">No</title>
+                </val>
+                <val value="permissive">
+                    <title lang="ru" key="l10n.feature.beach_resort.more_tags.nudism.permissive.title">Не возбраняется</title>
+                    <title lang="en" key="l10n.feature.beach_resort.more_tags.nudism.permissive.title">Permissive</title>
+                </val>
+            </tag>
+        </more-tags>
+        <icon>beach_resort.png</icon>
+        <wiki>Оборудованный пляж с услугами</wiki>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>
